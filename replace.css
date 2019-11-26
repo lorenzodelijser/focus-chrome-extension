@@ -1,0 +1,55 @@
+.kix-appview-editor-container {
+  background: #ffffff;
+}
+
+.left-sidebar-container,
+.docs-explore-widget-button,
+.app-switcher-button,
+#docs-toolbar-mode-switcher,
+#docs-omnibox-toolbar,
+#insertCommentButton,
+#docs-instant-button-bubble,
+.kix-document-top-shadow-inner {
+  display: none !important;
+}
+
+.docs-gm,
+.kix-page,
+.kix-page-paginated,
+.docs-gm,
+.kix-page-paginated,
+.kix-paginateddocumentplugin,
+.kix-paginateddocumentplugin-compact-mode {
+  box-shadow: none !important;
+}
+
+.kix-page-compact::before {
+  border-top: none;
+}
+
+.docs-gm #docs-toolbar-wrapper {
+  border: none !important;
+  padding-bottom: 16px;
+}
+
+#docs-side-toolbar {
+  padding-right: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+#docs-chrome {
+  padding-top: 16px;
+  opacity: 0.4;
+  transition: 0.4s;
+}
+
+#docs-chrome:hover,
+.kix-documentmetrics-widget:hover {
+  opacity: 1;
+}
+
+.kix-documentmetrics-widget {
+  opacity: 0.4;
+  transition: 0.4s;
+  box-shadow: none !important;
+}
