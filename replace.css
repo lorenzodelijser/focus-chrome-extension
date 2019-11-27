@@ -1,5 +1,5 @@
 .kix-appview-editor-container {
-  background: #ffffff;
+  background: #ffffff !important;
 }
 
 .left-sidebar-container,
@@ -24,7 +24,7 @@
 }
 
 .kix-page-compact::before {
-  border-top: none;
+  border-top: none !important;
 }
 
 .docs-gm #docs-toolbar-wrapper {
@@ -38,7 +38,7 @@
 }
 
 #docs-chrome {
-  padding-top: 16px;
+  padding-top: 16px !important;
   opacity: 0.4;
   transition: 0.4s;
 }
