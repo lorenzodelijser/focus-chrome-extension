@@ -53,3 +53,11 @@
   transition: 0.4s;
   box-shadow: none !important;
 }
+
+.kix-page {
+  transition: 0.4s;
+}
+
+.kix-page:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, .7);
+}
