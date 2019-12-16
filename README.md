@@ -22,4 +22,7 @@ On **Google Chrome**
 7. This extension is still in development, feel free to send me feedback!
 
 
+---
+
+
 Made by [Lorenzo de Lijser](https://twitter.com/lorenzodelijser). Feel free to reach out to me through email at [hi@lorenzodelijser.nl](mailto:hi@lorenzodelijser.nl) or on [Twitter](https://twitter.com/lorenzodelijser) if you have any questions or feedback.
