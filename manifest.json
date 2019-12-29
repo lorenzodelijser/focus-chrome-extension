@@ -10,7 +10,7 @@
   },
   "page_action": {
     "default_popup": "popup.html",
-    "default_title": "placeholder title",
+    "default_title": "Paper",
     "default_icon": {
       "16": "images/icon-16.png",
       "32": "images/icon-32.png",
@@ -27,8 +27,8 @@
   "manifest_version": 2,
   "content_scripts": [
     {
-      "css": ["replace.css"],
-      "matches": ["https://docs.google.com/*"]
+      "matches": ["https://docs.google.com/document/*"],
+      "css": ["replace.css"]
     }
   ]
 }
