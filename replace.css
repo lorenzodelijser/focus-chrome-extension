@@ -55,9 +55,22 @@
 }
 
 .kix-page {
-  transition: 0.4s;
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 
-.kix-page:hover {
-  border-bottom: 1px solid rgba(0, 0, 0, .7);
+.docs-gm .docs-slidingdialog {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border: 1px solid #d9d9d9 !important;
+}
+
+.docs-spellcheckslidingdialog .docs-slidingdialog-holder {
+  margin-top: 32px;
+}
+
+#docs-suggestiondialog-id .docs-slidingdialog-close-container {
+  padding-top: 10px;
 }
