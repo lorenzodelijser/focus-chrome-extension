@@ -1,4 +1,12 @@
-.kix-appview-editor-container {
+body {
+  margin-right: 0 !important;
+}
+
+.docs-gm #docs-editor,
+.docs-gm #docs-editor-container,
+.kix-appview-editor-container,
+.docs-gm .docs-horizontal-ruler,
+.docs-gm #kix-vertical-ruler {
   background: #ffffff !important;
 }
 
@@ -16,10 +24,12 @@
 .docs-gm,
 .kix-page,
 .kix-page-paginated,
-.docs-gm,
-.kix-page-paginated,
+.kix-documentmetrics-widget,
 .kix-paginateddocumentplugin,
-.kix-paginateddocumentplugin-compact-mode {
+.kix-paginateddocumentplugin-compact-mode,
+.docs-homescreen-templates-bar-shadow,
+.docs-homescreen-floater-header-shadow,
+form.gb_Re.gb_Se {
   box-shadow: none !important;
 }
 
@@ -44,21 +54,34 @@
 }
 
 #docs-chrome:hover,
-.kix-documentmetrics-widget:hover {
+.kix-documentmetrics-widget:hover,
+.docs-gm .docs-horizontal-ruler:hover,
+.docs-gm .docs-vertical-ruler:hover {
   opacity: 1;
 }
 
-.kix-documentmetrics-widget {
+.kix-documentmetrics-widget,
+.docs-gm .docs-horizontal-ruler,
+.docs-gm .docs-vertical-ruler {
   opacity: 0.4;
   transition: 0.4s;
-  box-shadow: none !important;
 }
 
-.kix-page {
-  border-bottom: 1px solid rgb(255, 255, 255);
+.kix-page,
+.docs-gm .docs-horizontal-ruler {
+  border-bottom: 1px solid #ffffff !important;
 }
 
-.docs-gm .docs-slidingdialog {
+.docs-gm #kix-vertical-ruler {
+  border-left: 1px solid #ffffff !important;
+}
+
+.docs-gm .docs-vertical-ruler {
+  border-right: 1px solid #ffffff !important;
+}
+
+.docs-gm .docs-slidingdialog,
+form.gb_Re.gb_Se {
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;

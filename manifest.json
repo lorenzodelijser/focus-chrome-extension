@@ -1,16 +1,16 @@
 {
-  "name": "Paper",
+  "name": "Surface",
   "version": "1.0",
-  "description": "Paper is a minimal visual style for Google Docs.",
+  "description": "Surface is a visual overlay for Google Docs. Made to help you focus while writing.",
   "author": "Lorenzo de Lijser",
   "permissions": ["activeTab", "declarativeContent", "storage"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
-  "page_action": {
+  "browser_action": {
     "default_popup": "popup.html",
-    "default_title": "Paper",
+    "default_title": "Surface",
     "default_icon": {
       "16": "images/icon-16.png",
       "32": "images/icon-32.png",
