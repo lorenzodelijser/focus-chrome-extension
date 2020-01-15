@@ -1,7 +1,7 @@
 {
-  "name": "Surface",
+  "name": "Focus for Google Docs",
   "version": "1.0",
-  "description": "Surface is a visual overlay for Google Docs. Made to help you focus while writing.",
+  "description": "Focus is a visual overlay for Google Docs. Made to help you focus while writing.",
   "author": "Lorenzo de Lijser",
   "permissions": ["activeTab", "declarativeContent", "storage"],
   "background": {
@@ -10,18 +10,18 @@
   },
   "browser_action": {
     "default_popup": "popup.html",
-    "default_title": "Surface",
+    "default_title": "Focus for Google Docs",
     "default_icon": {
       "16": "images/icon-16.png",
       "32": "images/icon-32.png",
-      "48": "images/icon-48.png",
+      "64": "images/icon-64.png",
       "128": "images/icon-128.png"
     }
   },
   "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",
-    "48": "images/icon-48.png",
+    "64": "images/icon-64.png",
     "128": "images/icon-128.png"
   },
   "manifest_version": 2,
