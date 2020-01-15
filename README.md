@@ -4,7 +4,7 @@
 
 Focus is a visual overlay for [Google Docs](https://docs.google.com). Made to help you focus while writing documents.
 
-## How to Install step by step:
+## How to Install in Developer Mode:
 
 ### On GitHub
 
