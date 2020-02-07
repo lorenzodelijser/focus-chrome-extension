@@ -1,6 +1,6 @@
 # Focus for Google Docs
 
-![Example](https://pbs.twimg.com/media/EKYL1o5WkAA29gN?format=jpg&name=4096x4096 "Focus for Google Docs Chrome Extension Example")
+![Example](https://pbs.twimg.com/media/EQK9Y2RXsAIVHS2?format=jpg&name=4096x4096 "Focus for Google Docs Chrome Extension Example")
 
 Focus is a visual overlay for [Google Docs](https://docs.google.com). Made to help you focus while writing documents.
 
@@ -26,8 +26,7 @@ Focus is a visual overlay for [Google Docs](https://docs.google.com). Made to he
 
 ### Icons
 
-This projects uses the "edit-3" icon from [Feather Icons](https://feathericons.com/).
-made by [Cole Bemis](https://twitter.com/colebemis)
+This projects uses the "edit-3" icon from [Feather Icons](https://feathericons.com/) made by [Cole Bemis](https://twitter.com/colebemis)
 
 ---
 
