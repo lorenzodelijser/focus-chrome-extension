@@ -1,85 +1,114 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <style>
-      html {
-        box-sizing: border-box;
-      }
 
-      * {
-        box-sizing: inherit;
-      }
-      *:before,
-      *:after {
-        box-sizing: inherit;
-      }
+<head>
+  <style>
+    html {
+      box-sizing: border-box;
+    }
 
+    * {
+      box-sizing: inherit;
+    }
+
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    body {
+      background: #ffffff;
+      width: 180px;
+      height: auto;
+      padding: 16px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+      direction: ltr;
+      font-feature-settings: "kern";
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1,
+    p,
+    a {
+      display: block;
+      margin-block-start: 0;
+      margin-block-end: 0;
+      margin-inline-start: 0;
+      margin-inline-end: 0;
+    }
+
+    h1 {
+      color: #000000;
+      font-size: 32px;
+    }
+
+    p {
+      line-height: 160%;
+    }
+
+    a {
+      text-decoration: none;
+      color: #FF0099;
+      text-decoration: underline;
+    }
+
+    svg {
+      display: inline-block;
+      padding-right: 8px;
+    }
+
+    .title {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 8px;
+    }
+
+    @media (prefers-color-scheme: dark) {
       body {
-        background: #ffffff;
-        width: 340px;
-        height: auto;
-        padding: 16px;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-          "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-          "Helvetica Neue", sans-serif;
-        direction: ltr;
-        font-feature-settings: "kern";
-        text-rendering: optimizeLegibility;
-        -webkit-font-smoothing: antialiased;
-      }
-
-      h1,
-      p,
-      a {
-        display: block;
-        margin-block-start: 0;
-        margin-block-end: 0;
-        margin-inline-start: 0;
-        margin-inline-end: 0;
+        background: rgb(21, 21, 21);
       }
 
       h1 {
-        color: #000000;
+        color: #ffffff;
       }
 
       p {
-        line-height: 180%;
+        color: #ffffff;
       }
+    }
+  </style>
+</head>
 
-      a {
-        text-decoration: none;
-        color: #3f75f3;
-        text-decoration: underline;
-      }
+<body>
+  <div class="title">
+    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M24 40H42" stroke="url(#paint0_linear)" stroke-width="4" stroke-linecap="round"
+        stroke-linejoin="round" />
+      <path
+        d="M33 7C33.7956 6.20435 34.8748 5.75735 36 5.75735C36.5572 5.75735 37.1088 5.86709 37.6236 6.08031C38.1383 6.29352 38.606 6.60603 39 7C39.394 7.39396 39.7065 7.86167 39.9197 8.37641C40.1329 8.89115 40.2426 9.44284 40.2426 10C40.2426 10.5571 40.1329 11.1088 39.9197 11.6236C39.7065 12.1383 39.394 12.606 39 13L14 38L6 40L8 32L33 7Z"
+        stroke="url(#paint1_linear)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      <defs>
+        <linearGradient id="paint0_linear" x1="40.75" y1="-29" x2="-11.126" y2="10.9656" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#0057FF" />
+          <stop offset="1" stop-color="#FF0099" />
+        </linearGradient>
+        <linearGradient id="paint1_linear" x1="23.1213" y1="5.75735" x2="23.1213" y2="40"
+          gradientUnits="userSpaceOnUse">
+          <stop stop-color="#0057FF" />
+          <stop offset="1" stop-color="#FF0099" />
+        </linearGradient>
+      </defs>
+    </svg>
+    <h1>Focus</h1>
+  </div>
+  <p>
+    Focus is a visual overlay for Google Docs. Made to help you focus while
+    writing documents. Made by
+    <a href="https://twitter.com/lorenzodelijser" target="_blank">Lorenzo de Lijser</a>
+  </p>
+</body>
 
-      svg {
-        display: inline-block;
-        padding-right: 8px;
-      }
-
-      .title {
-        display: flex;
-        flex-direction: row;
-        padding-bottom: 8px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="title">
-      <svg width="32" height="32" viewBox="0 0 28 28">
-        <path
-          fill="#3F75F3"
-          d="M14 0.666656C21.36 0.666656 27.3334 6.63999 27.3334 14C27.3334 21.36 21.36 27.3333 14 27.3333C6.64002 27.3333 0.666687 21.36 0.666687 14C0.666687 6.63999 6.64002 0.666656 14 0.666656ZM14 11.3333C12.5334 11.3333 11.3334 12.5333 11.3334 14C11.3334 15.4667 12.5334 16.6667 14 16.6667C15.4667 16.6667 16.6667 15.4667 16.6667 14C16.6667 12.5333 15.4667 11.3333 14 11.3333Z"
-        />
-      </svg>
-      <h1>Focus for Google Docs</h1>
-    </div>
-    <p>
-      Focus is a visual overlay for Google Docs. Made to help you focus while
-      writing documents. Made by
-      <a href="https://twitter.com/lorenzodelijser" target="_blank"
-        >Lorenzo de Lijser</a
-      >
-    </p>
-  </body>
 </html>

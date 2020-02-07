@@ -26,7 +26,8 @@ Focus is a visual overlay for [Google Docs](https://docs.google.com). Made to he
 
 ### Icons
 
-This projects uses one free SVG icon from [Remix Icon](https://remixicon.com/).
+This projects uses the "edit-3" icon from [Feather Icons](https://feathericons.com/).
+made by [Cole Bemis](https://twitter.com/colebemis)
 
 ---
 
