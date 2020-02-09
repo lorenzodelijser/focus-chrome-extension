@@ -1,11 +1,16 @@
 {
   "name": "Focus for Google Docs",
-  "version": "1.0",
+  "version": "0.0.0.1",
   "description": "Focus is a visual overlay for Google Docs. Made to help you focus while writing.",
   "author": "Lorenzo de Lijser",
-  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "permissions": [
+    "declarativeContent",
+    "storage"
+  ],
   "background": {
-    "scripts": ["background.js"],
+    "scripts": [
+      "background.js"
+    ],
     "persistent": false
   },
   "browser_action": {
@@ -27,8 +32,12 @@
   "manifest_version": 2,
   "content_scripts": [
     {
-      "matches": ["https://docs.google.com/document/*"],
-      "css": ["replace.css"]
+      "matches": [
+        "https://docs.google.com/document/*"
+      ],
+      "css": [
+        "replace.css"
+      ]
     }
   ]
 }
