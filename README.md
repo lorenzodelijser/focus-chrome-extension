@@ -2,7 +2,7 @@
 
 ![Image](https://pbs.twimg.com/media/EQK9Y2RXsAIVHS2?format=jpg&name=4096x4096 "Focus for Google Docs Chrome Extension Example")
 
-Focus is a visual overlay for [Google Docs](https://docs.google.com). Made to help you focus while writing documents. You can add the chrome extension via the [Chrome Web Store](https://chrome.google.com/webstore/detail/focus-for-google-docs/ehogfddbkbeoadolmjppehadlpkbmfkn)
+Focus is a visual overlay for [Google Docs](https://docs.google.com). Made to help you focus while writing documents. You can add the chrome extension via the [Chrome Web Store](https://chrome.google.com/webstore/detail/focus-for-google-docs/ehogfddbkbeoadolmjppehadlpkbmfkn).
 
 ## How to Install in Developer Mode:
 
