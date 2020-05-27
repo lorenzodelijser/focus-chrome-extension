@@ -30,4 +30,4 @@ This projects uses the "edit-3" icon from [Feather Icons](https://feathericons.c
 
 ---
 
-Made by [Lorenzo de Lijser](https://twitter.com/lorenzodelijser). Feel free to reach out to me through email at [hi@lorenzodelijser.nl](mailto:hi@lorenzodelijser.nl) or on [Twitter](https://twitter.com/lorenzodelijser) if you have any questions or feedback.
+Made by [Lorenzo de Lijser](https://twitter.com/lorenzodelijser). Feel free to reach out to me through email at [lorenzodelijser@gmail.com](mailto:lorenzodelijser@gmail.com) or on [Twitter](https://twitter.com/lorenzodelijser) if you have any questions or feedback.
