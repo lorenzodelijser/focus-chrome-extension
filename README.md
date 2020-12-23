@@ -26,4 +26,4 @@ Focus creates a minimal visual interface for [Google Docs](https://docs.google.c
 
 #
 
-Feel free to reach out to me through email at [hey@lorenzodelijser.com](hey@lorenzodelijser.com) or on [Twitter](https://twitter.com/lorenzodelijser) if you have any questions or feedback.
+Feel free to reach out to me through email at [hey@lorenzodelijser.com](mailto:hey@lorenzodelijser.com) or on [Twitter](https://twitter.com/lorenzodelijser) if you have any questions or feedback.
