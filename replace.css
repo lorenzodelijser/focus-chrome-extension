@@ -21,15 +21,17 @@ body {
   display: none !important;
 }
 
+form.gb_Re.gb_Se,
 .docs-gm,
+.docs-homescreen-floater-header-shadow,
+.docs-homescreen-templates-bar-shadow,
+.kix-documentmetrics-widget,
 .kix-page,
 .kix-page-paginated,
-.kix-documentmetrics-widget,
 .kix-paginateddocumentplugin,
-.kix-paginateddocumentplugin-compact-mode,
-.docs-homescreen-templates-bar-shadow,
-.docs-homescreen-floater-header-shadow,
-form.gb_Re.gb_Se {
+.kix-paginateddocumentplugin .kix-page-compact-box-shadow,
+.kix-paginateddocumentplugin .kix-paginateddocumentplugin-compact-mode,
+.kix-paginateddocumentplugin .kix-paginateddocumentplugin-compact-mode-box-shadow {
   box-shadow: none !important;
 }
 
