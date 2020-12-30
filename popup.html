@@ -17,15 +17,13 @@
     }
 
     body {
-      background: #ffffff;
-      width: 180px;
+      background: #FFF;
+      width: 320px;
       height: auto;
       padding: 16px;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-        "Helvetica Neue", sans-serif;
+      font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
       direction: ltr;
-      font-feature-settings: "kern";
+      font-feature-settings: 'kern';
       text-rendering: optimizeLegibility;
       -webkit-font-smoothing: antialiased;
     }
@@ -33,7 +31,6 @@
     h1,
     p,
     a {
-      display: block;
       margin-block-start: 0;
       margin-block-end: 0;
       margin-inline-start: 0;
@@ -41,17 +38,18 @@
     }
 
     h1 {
-      color: #000000;
+      color: #000;
       font-size: 32px;
     }
 
     p {
-      line-height: 160%;
+      line-height: 20px;
+      margin-bottom: 8px;
     }
 
     a {
       text-decoration: none;
-      color: #FF0099;
+      color: #FFF;
       text-decoration: underline;
     }
 
@@ -68,15 +66,16 @@
 
     @media (prefers-color-scheme: dark) {
       body {
-        background: rgb(21, 21, 21);
+        /* background: rgb(21, 21, 21); */
+        background-color: #202225;
       }
 
       h1 {
-        color: #ffffff;
+        color: #FFF;
       }
 
       p {
-        color: #ffffff;
+        color: #FFF;
       }
     }
   </style>
@@ -104,11 +103,9 @@
     </svg>
     <h1>Focus</h1>
   </div>
-  <p>
-    Focus is a visual overlay for Google Docs. Made to help you focus while
-    writing documents. Made by
-    <a href="https://twitter.com/lorenzodelijser" target="_blank">Lorenzo de Lijser</a>
-  </p>
+  <p>Focus for Google Docs helps you write better documents by focusing on what matters most. Bring focus back to your writing distraction free without compromises. This extension provides a minimal user interface for Google Docs inspired by iA Writer, Dropbox Paper and Ulysses.</p>
+  <p>This extension works best when you disable the <i>"Print Layout"</i> option in <i>"View"</i>, this ensures texts will flow as intended, without page breaks.</p>
+  <p>Made by <a href="https://twitter.com/lorenzodelijser" target="_blank">Lorenzo de Lijser</a>.</p>
 </body>
 
 </html>
