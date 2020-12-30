@@ -4,7 +4,7 @@
 
 Check out Focus for Google Docs in the [Chrome Web Store](https://chrome.google.com/webstore/detail/focus-for-google-docs/ehogfddbkbeoadolmjppehadlpkbmfkn)
 
-Focus for Google Docs helps you write better documents by focusing on what matters most. Bring focus back to your writing distraction free without compromises. This extension provides a minimal user interface for Google Docs inspired by iA Writer, Dropbox Paper and Ulysses.
+Focus for Google Docs helps you write better documents by focusing on what matters most. Bring focus to your writing, distraction free without compromises. This extension provides a minimal user interface for Google Docs inspired by iA Writer, Dropbox Paper and Ulysses.
 
 This extension works best when you disable the _"Print Layout"_ option in _"View"_, this ensures texts will flow as intended, without page breaks.
 
