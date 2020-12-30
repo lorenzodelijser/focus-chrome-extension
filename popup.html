@@ -20,7 +20,7 @@
       background: #FFF;
       width: 320px;
       height: auto;
-      padding: 16px;
+      padding: 4px 12px;
       font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
       direction: ltr;
       font-feature-settings: 'kern';
@@ -39,7 +39,8 @@
 
     h1 {
       color: #000;
-      font-size: 32px;
+      font-size: 20px;
+      font-weight: 500;
     }
 
     p {
@@ -60,13 +61,13 @@
 
     .title {
       display: flex;
+      align-items: center;
       flex-direction: row;
       padding-bottom: 8px;
     }
 
     @media (prefers-color-scheme: dark) {
       body {
-        /* background: rgb(21, 21, 21); */
         background-color: #202225;
       }
 
@@ -84,26 +85,12 @@
 <body>
   <div class="title">
     <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M24 40H42" stroke="url(#paint0_linear)" stroke-width="4" stroke-linecap="round"
-        stroke-linejoin="round" />
-      <path
-        d="M33 7C33.7956 6.20435 34.8748 5.75735 36 5.75735C36.5572 5.75735 37.1088 5.86709 37.6236 6.08031C38.1383 6.29352 38.606 6.60603 39 7C39.394 7.39396 39.7065 7.86167 39.9197 8.37641C40.1329 8.89115 40.2426 9.44284 40.2426 10C40.2426 10.5571 40.1329 11.1088 39.9197 11.6236C39.7065 12.1383 39.394 12.606 39 13L14 38L6 40L8 32L33 7Z"
-        stroke="url(#paint1_linear)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-      <defs>
-        <linearGradient id="paint0_linear" x1="40.75" y1="-29" x2="-11.126" y2="10.9656" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#0057FF" />
-          <stop offset="1" stop-color="#FF0099" />
-        </linearGradient>
-        <linearGradient id="paint1_linear" x1="23.1213" y1="5.75735" x2="23.1213" y2="40"
-          gradientUnits="userSpaceOnUse">
-          <stop stop-color="#0057FF" />
-          <stop offset="1" stop-color="#FF0099" />
-        </linearGradient>
-      </defs>
-    </svg>
-    <h1>Focus</h1>
+      <rect width="48" height="48" rx="24" fill="#000"/>
+      <path d="M16 36.781V37H26.4751L22.7012 33.1314V25.2117H32.0477V23.5328H22.7012V13.3139H28.6971L32.6473 19.4453H33V12H16L18.1162 15.7956V33.1314L16 36.781Z" fill="#FFF"/>
+      </svg>
+    <h1>Focus for Google Docs</h1>
   </div>
-  <p>Focus for Google Docs helps you write better documents by focusing on what matters most. Bring focus back to your writing distraction free without compromises. This extension provides a minimal user interface for Google Docs inspired by iA Writer, Dropbox Paper and Ulysses.</p>
+  <p>Write better documents by focusing on what matters most. This extension provides a minimal user interface for Google Docs.</p>
   <p>This extension works best when you disable the <i>"Print Layout"</i> option in <i>"View"</i>, this ensures texts will flow as intended, without page breaks.</p>
   <p>Made by <a href="https://twitter.com/lorenzodelijser" target="_blank">Lorenzo de Lijser</a>.</p>
 </body>
