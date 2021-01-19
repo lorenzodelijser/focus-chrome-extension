@@ -16,17 +16,17 @@
     "default_popup": "popup.html",
     "default_title": "Focus for Google Docs",
     "default_icon": {
-      "16": "images/icon-16.png",
-      "32": "images/icon-32.png",
-      "64": "images/icon-64.png",
-      "128": "images/icon-128.png"
+      "16": "img/icon-16.png",
+      "32": "img/icon-32.png",
+      "64": "img/icon-64.png",
+      "128": "img/icon-128.png"
     }
   },
   "icons": {
-    "16": "images/icon-16.png",
-    "32": "images/icon-32.png",
-    "64": "images/icon-64.png",
-    "128": "images/icon-128.png"
+    "16": "img/icon-16.png",
+    "32": "img/icon-32.png",
+    "64": "img/icon-64.png",
+    "128": "img/icon-128.png"
   },
   "manifest_version": 2,
   "content_scripts": [

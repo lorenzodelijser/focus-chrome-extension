@@ -1,6 +1,6 @@
 # Focus for Google Docs
 
-![Image](https://lh5.googleusercontent.com/baF8t6geRf0sVVyxKVA6z0oOUkJnVYlLlJl9iv_C9uf12E4x3RhEo6-aa-Me5WoWBHbbsAqPXkaUPw=w3360-h1828-rw "Focus for Google Docs Chrome Extension")
+![Focus for Google Docs Chrome Extension](_img/screenshot.png)
 
 Check out Focus for Google Docs in the [Chrome Web Store](https://chrome.google.com/webstore/detail/focus-for-google-docs/ehogfddbkbeoadolmjppehadlpkbmfkn)
 
