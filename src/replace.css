@@ -2,15 +2,6 @@ body {
   margin-right: 0 !important;
 }
 
-.docs-gm #docs-editor,
-.docs-gm #docs-editor-container,
-.kix-appview-editor-container,
-.docs-gm .docs-horizontal-ruler,
-.docs-gm #kix-vertical-ruler {
-  background: #ffffff !important;
-}
-
-.left-sidebar-container,
 .docs-explore-widget-button,
 .app-switcher-button,
 #docs-toolbar-mode-switcher,
@@ -21,8 +12,18 @@ body {
   display: none !important;
 }
 
+.kix-appview-editor-container,
+.docs-gm #kix-vertical-ruler,
+.docs-gm #docs-editor,
+.docs-gm #docs-editor-container,
+.docs-gm .docs-horizontal-ruler,
+.docs-gm .docs-tiled-sidebar {
+  background: #ffffff !important;
+}
+
 form.gb_Re.gb_Se,
 .docs-gm,
+.docs-gm .docs-tiled-sidebar,
 .docs-homescreen-floater-header-shadow,
 .docs-homescreen-templates-bar-shadow,
 .kix-documentmetrics-widget,
@@ -35,38 +36,27 @@ form.gb_Re.gb_Se,
   box-shadow: none !important;
 }
 
-.kix-page-compact::before {
-  border-top: none !important;
-}
-
-.docs-gm #docs-toolbar-wrapper {
-  border: none !important;
-  padding-bottom: 16px;
-}
-
-#docs-side-toolbar {
-  padding-right: 16px !important;
-  padding-bottom: 16px !important;
-}
-
-#docs-chrome {
-  padding-top: 16px !important;
+#docs-chrome,
+.left-sidebar-container,
+.kix-documentmetrics-widget,
+.docs-gm .docs-horizontal-ruler,
+.docs-gm .docs-vertical-ruler {
   opacity: 0.4;
   transition: 0.4s;
 }
 
 #docs-chrome:hover,
+.left-sidebar-container:hover,
 .kix-documentmetrics-widget:hover,
 .docs-gm .docs-horizontal-ruler:hover,
 .docs-gm .docs-vertical-ruler:hover {
   opacity: 1;
 }
 
-.kix-documentmetrics-widget,
-.docs-gm .docs-horizontal-ruler,
-.docs-gm .docs-vertical-ruler {
-  opacity: 0.4;
-  transition: 0.4s;
+.docs-gm .docs-tiled-sidebar-header,
+.docs-gm #docs-toolbar-wrapper,
+.kix-page-compact::before {
+  border: none !important;
 }
 
 .kix-page,
@@ -92,10 +82,24 @@ form.gb_Re.gb_Se {
   border: 1px solid #d9d9d9 !important;
 }
 
-.docs-spellcheckslidingdialog .docs-slidingdialog-holder {
-  margin-top: 32px;
+#hide-equation-toolbar-button {
+  margin-right: 16px !important;
 }
 
+.docs-gm #docs-toolbar-wrapper {
+  padding-bottom: 16px;
+}
+
+#docs-side-toolbar {
+  padding-right: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+#docs-chrome,
 #docs-suggestiondialog-id .docs-slidingdialog-close-container {
-  padding-top: 10px;
+  padding-top: 16px !important;
+}
+
+.docs-spellcheckslidingdialog .docs-slidingdialog-holder {
+  margin-top: 32px;
 }
