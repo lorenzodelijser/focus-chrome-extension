@@ -7,12 +7,7 @@
       box-sizing: border-box;
     }
 
-    * {
-      box-sizing: inherit;
-    }
-
-    *:before,
-    *:after {
+    *, *:before, *:after {
       box-sizing: inherit;
     }
 
@@ -28,9 +23,8 @@
       -webkit-font-smoothing: antialiased;
     }
 
-    h1,
-    p,
-    a {
+    h1, p, a {
+      color: #000;
       margin-block-start: 0;
       margin-block-end: 0;
       margin-inline-start: 0;
@@ -38,7 +32,6 @@
     }
 
     h1 {
-      color: #000;
       font-size: 20px;
       font-weight: 500;
     }
@@ -50,8 +43,6 @@
 
     a {
       text-decoration: none;
-      color: #FFF;
-      text-decoration: underline;
     }
 
     svg {
@@ -71,11 +62,7 @@
         background-color: #202225;
       }
 
-      h1 {
-        color: #FFF;
-      }
-
-      p {
+      h1, p, a {
         color: #FFF;
       }
     }
