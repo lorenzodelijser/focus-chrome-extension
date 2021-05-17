@@ -2,6 +2,11 @@ body {
   margin-right: 0 !important;
 }
 
+#docs-editor {
+  min-width: 100% !important;
+}
+
+.docs-companion-app-switcher-container,
 .docs-explore-widget-button,
 .app-switcher-button,
 #docs-toolbar-mode-switcher,
@@ -12,6 +17,7 @@ body {
   display: none !important;
 }
 
+.kix-appview-editor,
 .kix-appview-editor-container,
 .docs-gm #kix-vertical-ruler,
 .docs-gm #docs-editor,
