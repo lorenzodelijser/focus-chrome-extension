@@ -1,5 +1,5 @@
 {
-  "name": "Focus for Google Docs Dark",
+  "name": "Focus Dark for Google Docs",
   "version": "1.0.3",
   "description": "Focus is a visual overlay for Google Docs. Made to help you focus while writing.",
   "author": "Lorenzo de Lijser",
@@ -8,7 +8,7 @@
   ],
   "browser_action": {
     "default_popup": "popup.html",
-    "default_title": "Focus for Google Docs Dark",
+    "default_title": "Focus Dark for Google Docs",
     "default_icon": {
       "16": "img/icon-16.png",
       "32": "img/icon-32.png",
